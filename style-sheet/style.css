@@ -1,0 +1,65 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    background-color: lightgray;
+    color: black;
+}
+
+ol {
+    background-color: lightgoldenrodyellow;
+}
+
+li {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: start;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+img{
+    width: 600px;
+    height: auto;
+}
+
+.recipes{
+    text-align: center;
+}
+
+#lasagna {
+    color: red;
+}
+
+#carbonara{
+    color: brown;
+}
+
+#rice {
+    color: gray;
+}
+
+@-webkit-keyframes blackWhite {  
+    17% { background-color: purple; }
+    34% { background-color: lightblue; }
+    41% { background-color: green; }
+    58% { background-color: yellow; }
+    65% { background-color: orange; }
+    72% { background-color: red; }
+    89% { background-color: blue; }
+    100% { background-color: pink; }
+  }
+  
+  .blinkdiv {
+      height: 100px;
+      -webkit-animation-name: blackWhite;  
+      -webkit-animation-iteration-count:infinite;  
+      -webkit-animation-duration: 1s; 
+  }
+
